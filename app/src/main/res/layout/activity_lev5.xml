@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"
+                tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+            android:id="@+id/Lev5Iv"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/lev5"
+            android:contentDescription="@string/lev5_iv"/>
+
+    <Button
+            android:id="@+id/Lev5SubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/Lev5HintButton"
+            android:background="@drawable/style"
+            android:onClick="Submit"
+            android:layout_marginBottom="5dp"
+            android:text="@string/lev5_submit_button"
+            android:textSize="30sp" />
+
+
+
+    <Button
+            android:id="@+id/Lev5HintButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/startAppBanner"
+            android:background="@drawable/style"
+            android:onClick="Hint"
+            android:layout_marginBottom="5dp"
+            android:text="@string/lev5_hint_button"
+            android:textSize="30sp" />
+
+    <com.startapp.android.publish.banner.Banner
+            android:id="@+id/startAppBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" >
+    </com.startapp.android.publish.banner.Banner>
+
+    <EditText
+            android:id="@+id/Lev5Et2"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Lev5Iv"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/style"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/lev5_et2"
+            android:inputType="number"
+            android:maxLength="7"
+            android:imeOptions="actionDone"
+            android:textColor="@android:color/holo_blue_bright" />
+
+    <EditText
+            android:id="@+id/Lev5Et1"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Lev5Iv"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/style"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/lev5_et1"
+            android:inputType="number"
+            android:maxLength="7"
+            android:imeOptions="actionDone"
+            android:textColor="@android:color/holo_blue_bright" />
+
+</RelativeLayout>

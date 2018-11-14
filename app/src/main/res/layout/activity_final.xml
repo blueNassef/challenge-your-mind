@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"
+                android:orientation="vertical" >
+
+    <TextView
+            android:id="@+id/FinalHintTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/style"
+            android:padding="30dp"
+            android:text="@string/final_tv"
+            android:textColor="@android:color/black"
+            android:textSize="35sp" />
+
+    <Button
+            android:id="@+id/BFinalOk"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/FinalHintTv"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/style"
+            android:onClick="Pro"
+            android:text="@string/b_accept_rate" />
+
+    <Button
+            android:id="@+id/BFinalDismiss"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/BFinalOk"
+            android:layout_alignBottom="@+id/BFinalOk"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="49dp"
+            android:background="@drawable/style"
+            android:onClick="dismiss"
+            android:text="@string/b_dismiss_rate" />
+
+</RelativeLayout>

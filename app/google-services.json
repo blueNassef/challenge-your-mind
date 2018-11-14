@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "593514380431",
+    "firebase_url": "https://challenge-your-mind-142600.firebaseio.com",
+    "project_id": "challenge-your-mind-142600",
+    "storage_bucket": "challenge-your-mind-142600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593514380431:android:4c717753e7361cc6",
+        "android_client_info": {
+          "package_name": "com.BlueN.challengeyourmind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593514380431-keiggien08v3gb863dq35ioi9itdo7bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfp6poHiE8xWtfFmUb8NMIV0rwseWIqtc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

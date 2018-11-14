@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"
+                tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+            android:id="@+id/FirstActivityExitButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FirstActivityAboutButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="92dp"
+            android:background="@drawable/style"
+            android:onClick="Exit"
+            android:text="@string/first_activity_exit_button"
+            android:textSize="40sp" />
+
+    <Button
+            android:id="@+id/FirstActivityAboutButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/FirstActivityExitButton"
+            android:layout_alignStart="@+id/FirstActivityExitButton"
+            android:layout_centerVertical="true"
+            android:background="@drawable/style"
+            android:onClick="About"
+            android:text="@string/first_activity_about_button"
+            android:textSize="40sp" />
+
+    <Button
+            android:id="@+id/FirstActivityStartButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/FirstActivityAboutButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/FirstActivityAboutButton"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/style"
+            android:text="@string/first_activity_start_button"
+            android:textSize="40sp" />
+
+</RelativeLayout>

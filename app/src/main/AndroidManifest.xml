@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.BlueN.challengeyourmind"
+          android:installLocation="auto">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="com.startapp.android.publish.OverlayActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:theme="@android:style/Theme.Translucent"/>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.BlueN.challengeyourmind.MESSAGE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.vungle.publisher.FullScreenAdActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name=".FirstActivity"
+                  android:label="@string/title_activity_first"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev1Activity"
+                  android:label="@string/title_activity_lev1"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev2Activity"
+                  android:label="@string/title_activity_lev2"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev3Activity"
+                  android:label="@string/title_activity_lev3"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev4Activity"
+                  android:label="@string/title_activity_lev4"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev5Activity"
+                  android:label="@string/title_activity_lev5"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev6Activity"
+                  android:label="@string/title_activity_lev6"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev7Activity"
+                  android:label="@string/title_activity_lev7"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev8Activity"
+                  android:label="@string/title_activity_lev8"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev9Activity"
+                  android:label="@string/title_activity_lev9"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".Lev10Activity"
+                  android:label="@string/title_activity_lev10"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity android:name=".RateApp"
+                  android:label="@string/title_activity_rate_app"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".FinalActivity"
+                  android:label="@string/title_activity_final"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HowToPlayActivity"
+                  android:label="@string/title_activity_how_to_play"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev1HintActivity"
+                  android:label="@string/title_activity_lev1_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev2HintActivity"
+                  android:label="@string/title_activity_lev2_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev3HintActivity"
+                  android:label="@string/title_activity_lev3_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev4HintActivity"
+                  android:label="@string/title_activity_lev4_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev5HintActivity"
+                  android:label="@string/title_activity_lev5_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev6HintActivity"
+                  android:label="@string/title_activity_lev6_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev7HintActivity"
+                  android:label="@string/title_activity_lev7_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev8HintActivity"
+                  android:label="@string/title_activity_lev8_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev9HintActivity"
+                  android:label="@string/title_activity_lev9_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Lev10HintActivity"
+                  android:label="@string/title_activity_lev10_hint"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".AboutActivity"
+                  android:label="@string/title_activity_about"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

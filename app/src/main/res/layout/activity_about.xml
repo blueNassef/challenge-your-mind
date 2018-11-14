@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"
+                tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+            android:id="@+id/about_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/about_tv"
+            android:textSize="20sp" />
+
+    <Button
+            android:id="@+id/about_how_to_play_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about_tv"
+            android:layout_alignStart="@+id/about_tv"
+            android:layout_alignEnd="@+id/about_tv"
+            android:layout_alignRight="@+id/about_tv"
+            android:layout_below="@+id/about_tv"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/style"
+            android:onClick="HowToPlay"
+            android:text="@string/about_how_to_play_button"
+            android:textSize="25sp" />
+
+    <Button
+            android:id="@+id/about_review_game_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about_tv"
+            android:layout_alignStart="@+id/about_tv"
+            android:layout_alignEnd="@+id/about_tv"
+            android:layout_alignRight="@+id/about_tv"
+            android:layout_below="@+id/about_how_to_play_button"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/style"
+            android:onClick="ReviewGame"
+            android:text="@string/about_review_game_button"
+            android:textSize="25sp" />
+
+    <Button
+            android:id="@+id/about_contact_us_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about_review_game_button"
+            android:layout_alignEnd="@+id/about_review_game_button"
+            android:layout_alignStart="@+id/about_review_game_button"
+            android:layout_alignRight="@+id/about_review_game_button"
+            android:layout_below="@+id/about_review_game_button"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/style"
+            android:onClick="ContactUs"
+            android:text="@string/about_contact_us_button"
+            android:textSize="25sp" />
+
+</RelativeLayout>

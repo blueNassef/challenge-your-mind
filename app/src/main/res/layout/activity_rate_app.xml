@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_dark"
+                android:orientation="vertical"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+            android:id="@+id/RateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:background="@drawable/style"
+            android:padding="30dp"
+            android:text="@string/rate_tv"
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
+
+    <Button
+            android:id="@+id/BDismissRate"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/RateTv"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="49dp"
+            android:background="@drawable/style"
+            android:onClick="dismiss"
+            android:text="@string/b_dismiss_rate" />
+
+    <Button
+            android:id="@+id/BAcceptRate"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/BDismissRate"
+            android:layout_alignBottom="@+id/BDismissRate"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_toRightOf="@+id/BDismissRate"
+            android:layout_toEndOf="@+id/BDismissRate"
+            android:background="@drawable/style"
+            android:onClick="rate"
+            android:text="@string/b_accept_rate" />
+
+</RelativeLayout>

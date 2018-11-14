@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Challenge your mind</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_first">Challenge your mind</string>
+    <string name="title_activity_lev1">Level 1</string>
+    <string name="title_activity_lev2">Level 2</string>
+    <string name="title_activity_lev3">Level 3</string>
+    <string name="title_activity_lev4">Level 4</string>
+    <string name="title_activity_lev5">Level 5</string>
+    <string name="title_activity_lev6">Level 6</string>
+    <string name="title_activity_lev7">Level 7</string>
+    <string name="title_activity_lev8">Level 8</string>
+    <string name="title_activity_lev9">Level 9</string>
+    <string name="title_activity_lev10">Level 10</string>
+    <string name="title_activity_rate_app">RateApp</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="title_activity_how_to_play">HowToPlayActivity</string>
+    <string name="title_activity_lev1_hint">Lev1HintActivity</string>
+    <string name="title_activity_lev2_hint">Lev2HintActivity</string>
+    <string name="title_activity_lev3_hint">Lev3HintActivity</string>
+    <string name="title_activity_lev4_hint">Lev4HintActivity</string>
+    <string name="title_activity_lev5_hint">Lev5HintActivity</string>
+    <string name="title_activity_lev6_hint">Lev6HintActivity</string>
+    <string name="title_activity_lev7_hint">Lev7HintActivity</string>
+    <string name="title_activity_lev8_hint">Lev8HintActivity</string>
+    <string name="title_activity_lev9_hint">Lev9HintActivity</string>
+    <string name="title_activity_lev10_hint">Lev10HintActivity</string>
+    <string name="iv_splash">rotate image in splash screen</string>
+    <string name="iv_bluen">bluen logo</string>
+    <string name="tv_loading">loading</string>
+    <string name="tv_subs">Follow the subs, to reach the horizon.</string>
+    <string name="first_activity_exit_button">Exit</string>
+    <string name="first_activity_about_button">About</string>
+    <string name="first_activity_start_button">Start</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="about_tv">Challenge your mind</string>
+    <string name="about_how_to_play_button">How to play</string>
+    <string name="about_review_game_button">Review game</string>
+    <string name="about_contact_us_button">Contact us</string>
+    <string name="how_to_play_tv">Challenge your mind is a set of puzzles which dont need any mathematical abilities to
+        be solved,
+        you just need to under stand the puzzles logic to solve it,\n
+        p.s: if you get stuck at any level just use the contact us button,
+        we wont give exact answers we will just give some more hints.
+    </string>
+
+    <string name="lev1_iv">lev1img</string>
+    <string name="lev1_et">Ans:</string>
+    <string name="lev1_submit_button">Submit</string>
+    <string name="lev1_hint_button">Hint</string>
+    <string name="lev1_hint_tv">just count the numbers, its about 20.</string>
+
+    <string name="lev2_hint_tv">Every number multiplied by 2 gives you the next cell in a row.</string>
+    <string name="lev2_et">Ans:</string>
+    <string name="lev2_iv">lev2img</string>
+    <string name="lev2_submit_button">Submit</string>
+    <string name="lev2_hint_button">Hint</string>
+
+    <string name="lev3_iv">lev1img</string>
+    <string name="lev3_et">Ans:</string>
+    <string name="lev3_submit_button">Submit</string>
+    <string name="lev3_hint_button">Hint</string>
+    <string name="lev3_hint_tv">Simple multiplication.</string>
+
+    <string name="lev4_iv">lev1img</string>
+    <string name="lev4_et">Ans:</string>
+    <string name="lev4_submit_button">Submit</string>
+    <string name="lev4_hint_button">Hint</string>
+    <string name="lev4_hint_tv">Two equations with two unknowns, can be solved simultaneous.</string>
+
+    <string name="lev5_iv">lev1img</string>
+    <string name="lev5_et1">Ans:</string>
+    <string name="lev5_et2">Ans:</string>
+    <string name="lev5_submit_button">Submit</string>
+    <string name="lev5_hint_button">Hint</string>
+    <string name="lev5_hint_tv">One digit to ignore.</string>
+
+    <string name="lev6_iv">lev1img</string>
+    <string name="lev6_et">Ans:</string>
+    <string name="lev6_submit_button">Submit</string>
+    <string name="lev6_hint_button">Hint</string>
+    <string name="lev6_hint_tv">its all about priorities.</string>
+
+    <string name="lev7_iv">lev1img</string>
+    <string name="lev7_et">Ans:</string>
+    <string name="lev7_submit_button">Submit</string>
+    <string name="lev7_hint_button">Hint</string>
+    <string name="lev7_hint_tv">its a sequence.</string>
+
+    <string name="lev8_iv">lev1img</string>
+    <string name="lev8_et">Ans:</string>
+    <string name="lev8_submit_button">Submit</string>
+    <string name="lev8_hint_button">Hint</string>
+    <string name="lev8_hint_tv">Relation between opposite sides.</string>
+
+    <string name="lev9_iv">lev1img</string>
+    <string name="lev9_et">Ans:</string>
+    <string name="lev9_submit_button">Submit</string>
+    <string name="lev9_hint_button">Hint</string>
+    <string name="lev9_hint_tv">Use multiplication and addition.</string>
+
+    <string name="lev10_iv">lev1img</string>
+    <string name="lev10_et">Ans:</string>
+    <string name="lev10_submit_button">Submit</string>
+    <string name="lev10_hint_button">Hint</string>
+    <string name="lev10_hint_tv">Find the relation between the triangles.</string>
+
+    <string name="rate_tv">If you like the app please take amoment to rate it and support the developer.</string>
+    <string name="b_dismiss_rate">Not now</string>
+    <string name="b_accept_rate">Sure</string>
+
+    <string name="final_tv">congratulations you finished all the free levels, if you like the app you can download the
+        pro version.
+    </string>
+</resources>

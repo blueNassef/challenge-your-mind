@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.media.SoundPool;
+import android.net.Uri;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
@@ -14,16 +15,19 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.TextView;
+
 import com.startapp.android.publish.StartAppAd;
 import com.startapp.android.publish.StartAppSDK;
 import com.vungle.publisher.VunglePub;
 
 public class FirstActivity extends AppCompatActivity {
 
-    private Intent About;
+    private Intent About, privacyLink;
     private Button b_start;
     private Button b_about;
     private Button b_exit;
+    private TextView privacy;
     private Typeface font;
     private SoundPool sp;
     private int soundId;
@@ -48,6 +52,8 @@ public class FirstActivity extends AppCompatActivity {
         b_start= (Button) findViewById(R.id.FirstActivityStartButton);
         b_about= (Button) findViewById(R.id.FirstActivityAboutButton);
         b_exit= (Button) findViewById(R.id.FirstActivityExitButton);
+        privacy= findViewById(R.id.privacy);
+        privacyLink= new Intent(Intent.ACTION_VIEW, Uri.parse("https://sites.google.com/view/challengeyourmindprivacypolicy/home"));
 
         font= Typeface.createFromAsset(getAssets(), "fonts/beyond_the_mountains.ttf");
         b_start.setTypeface(font);
@@ -122,6 +128,8 @@ public class FirstActivity extends AppCompatActivity {
     public void About (View v){startActivity(About);sp.play(soundId, 1, 1, 0, 0, 1);v.startAnimation(buttonClick);}
     public void Exit (View v){finish();sp.play(soundId, 1, 1, 0, 0, 1);v.startAnimation(buttonClick);
         StartAppAd.onBackPressed(this);}
+    public void privacy(View v){startActivity(privacyLink);sp.play(soundId, 1, 1, 0, 0, 1);
+        v.startAnimation(buttonClick);}
 
 
     public static void savelevstate(int state, Context mycontext)

@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
             public void onAnimationEnd(Animation arg0) {
                 finish();
                 startActivity(i);
-
             }
 
             @Override

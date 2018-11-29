@@ -40,5 +40,16 @@
             android:background="@drawable/style"
             android:text="@string/first_activity_start_button"
             android:textSize="40sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style"
+        android:text="@string/privacy"
+        android:id="@+id/privacy"
+        android:onClick="privacy"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"/>
 
 </RelativeLayout>
